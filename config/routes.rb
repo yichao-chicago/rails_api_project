@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get("/weather/:address", { :controller => "", :action => "" })
+  get("/", { :controller => "pages", :action => "home" })
+
+  get("/weather/:address", { :controller => "forecasts", :action => "location" })
 end
