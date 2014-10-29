@@ -43,7 +43,9 @@ At the end of the day, if I visit
 I should see something like
 
 The current temperature at **5807+S+Woodlawn+Ave** is **46.6** degrees.
+
 The outlook for the next hour is: **Clear for the hour.**
+
 The outlook for the next day is: **Mostly cloudy starting tomorrow morning.**
 
 Optionally, link to [Bootstrap](http://www.bootstrapcdn.com/) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
