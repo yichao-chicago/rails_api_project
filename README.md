@@ -21,14 +21,14 @@ As described on the application's [home page](http://localhost:3000), I want you
 
 In order to do this, you will need to first complete the RCAV for that URL (I started it off in `routes.rb`).
 
-Then, in your controller file, add the following to the top:
+Then, in your `ForecastsController` file, add the following to the top:
 
     require 'open-uri'
     require 'json'
 
 You are now ready to read from the Google Geocoding API and Forecast API as you did last week in the API projects.
 
-In your controller action, do all the work you need to
+Inside the `location`  action, do all the work you need to
 
  - retrieve the user input (whatever they typed after the slash)
  - exchange it for a lat/lng pair from the Geocoding API
@@ -48,4 +48,18 @@ I should see something like
 >
 > The outlook for the next day is: **Mostly cloudy starting tomorrow morning.**
 
-Optionally, link to [Bootstrap](http://www.bootstrapcdn.com/) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
+#### For fun, optional exercises
+
+##### Bootstrap (*Easier*)
+
+Link to [Bootstrap](http://www.bootstrapcdn.com/) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
+
+##### Google Map (*Harder*)
+
+Embed a Google map in the view, centered on the provided address. Refer to the docs:
+
+https://developers.google.com/maps/documentation/javascript/examples/map-simple
+
+The key concept is, just like with Bootstrap, paste in the example markup and see if it works.
+
+Then, replace whichever part of the markup you want to with embedded Ruby tags that contain your dynamic values.
