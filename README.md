@@ -14,7 +14,7 @@ If it worked, you should be able to navigate to [http://localhost:3000](http://l
 
 ## Goal:
 
-As described on the application's [http://localhost:3000](home page), I want you to make links like these work:
+As described on the application's [home page](http://localhost:3000), I want you to make links like these work:
 
  - [http://localhost:3000/weather/5807+S+Woodlawn+Ave](http://localhost:3000/weather/5807+S+Woodlawn+Ave)
  - [http://localhost:3000/weather/450+N+Cityfront+Plaza+Dr+Chicago+IL+60611](http://localhost:3000/weather/450+N+Cityfront+Plaza+Dr+Chicago+IL+60611)
@@ -46,4 +46,4 @@ The current temperature at **5807+S+Woodlawn+Ave** is **46.6** degrees.
 The outlook for the next hour is: **Clear for the hour.**
 The outlook for the next day is: **Mostly cloudy starting tomorrow morning.**
 
-Optionally, link to [http://www.bootstrapcdn.com/](Bootstrap) or a [http://www.bootstrapcdn.com/#bootswatch_tab](Bootswatch) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
+Optionally, link to [Bootstrap](http://www.bootstrapcdn.com/) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
