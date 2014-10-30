@@ -52,7 +52,7 @@ I should see something like
 
 ##### Bootstrap (*Easier*)
 
-Link to [Bootstrap](http://www.bootstrapcdn.com/) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` (located in `app/views/layouts/application.html.erb`), and make things look prettier.
+`<link>` to [Bootstrap](http://www.bootstrapcdn.com/#quickstart_tab) or a [Bootswatch](http://www.bootstrapcdn.com/#bootswatch_tab) in the `<head>` of your pages (located in `app/views/layouts/application.html.erb`), and make things look prettier.
 
 ##### Google Map (*Harder*)
 
@@ -60,6 +60,6 @@ Embed a Google map in the view, centered on the provided address. Refer to the d
 
 https://developers.google.com/maps/documentation/javascript/examples/map-simple
 
-The key concept is, just like with Bootstrap, paste in the example markup and see if it works.
+The key concept is, just like with Bootstrap, to first paste in the example markup and see if it works.
 
-Then, replace whichever part of the markup you want to with embedded Ruby tags that contain your dynamic values.
+Then, replace whichever part of the static markup you want to with embedded Ruby tags that contain your dynamic values.
